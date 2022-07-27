@@ -1,58 +1,17 @@
 * {
-    margin: 0px;
-    background: rgb(204, 154, 154);
-  }
-  
-  /* Nav menu */  
+  background: rgb(174, 173, 181);
+}
+
 header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 30px 1%;
+  display: flex;
+  justify-content: center;
 }
 
-img{
-cursor: pointer;
-width: 100px;
-height: 100px;
-background: rgb(69, 229, 128);
+body {
+  color: rgb(88, 88, 87);
 }
 
-li,
-a {
-  font-weight: 400;
-  font-size: 20px;
-  color: rgb(9, 9, 9);
-  text-decoration: none;
-  list-style: none;
-  border: solid 15px rgb(205, 251, 222);
-  background: rgb(211, 245, 223);
-  border-radius: 60px;
-}
-
-input{
-    width: 200px;
-    height: 25px;
-}
-
-
-button {
-  font-weight: 400;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  font-size: x-large;
-  font-weight: 700;
-}
-
-.nav-links li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-
-
-.purple{
-    width: 500px;
-    height: 500px;
-    background: rgb(240, 80, 206);
-}
+footer {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
