@@ -54,6 +54,29 @@ body {
     color: rgb(88, 88, 87);
 }
 
+#carouselId{
+    color: rgb(88, 88, 87);
+}
+
+
+#gallery{
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    border: 5px solid white;
+    background: rgb(85, 85, 92);
+    display: inline-table;
+}
+
+.gallery-img{
+
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    display: inline-flex;
+    margin: 10px 50px 10px;
+}
+
 footer {
     display: flex;
     justify-content: center;
