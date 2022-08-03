@@ -6,9 +6,10 @@ header {
     justify-content: center;
     border: 5px solid rgb(255, 255, 255);
     margin-bottom: 10px;
+    width: 100%;
     background: rgb(52, 52, 52);
 }
-
+// NavBar
 #navbar{
     width: 100%;
     height: 5em;
@@ -53,9 +54,73 @@ header button {
 body {
     color: rgb(88, 88, 87);
 }
-
+//Carousel code
 #carouselId{
+    border: 5px solid white;
+    margin: auto;
+    position: relative;
+    width: 95%;
+    height: 500px;
     color: rgb(88, 88, 87);
+}
+
+.carousel-inner{
+    width: 99%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+}
+
+.carousel-item{
+    width: auto;
+    height: auto;
+    border: 5px solid white;
+
+}
+
+.carousel-control-prev, .carousel-control-next{
+    cursor: pointer;
+    width: auto;
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    padding: 17px;
+    background-color: rgb(85, 85, 92);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+
+@-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+  
+  @keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+  }
+
+// About section
+#about{
+    width: auto;
+    height: fit-content;
+    margin: auto;
+    padding: 5em;
+
+}
+#product{
+    width: auto;
+    height: fit-content;
+    margin: auto;
+    padding: 5em;
 }
 
 
@@ -80,4 +145,7 @@ body {
 footer {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100px;
+    
 }
