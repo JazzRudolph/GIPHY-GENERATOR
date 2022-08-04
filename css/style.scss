@@ -1,112 +1,31 @@
 * {
-    background: rgb(174, 173, 181);
+    background: rgb(229, 190, 237);
+    // Font choosen for this project
+    font-family: 'Mali', cursive;
 }
-header {
+#header {
     display: flex;
     justify-content: center;
-    border: 5px solid rgb(255, 255, 255);
-    margin-bottom: 10px;
-    width: 100%;
-    background: rgb(52, 52, 52);
-}
-// NavBar
-#navbar{
-    width: 100%;
-    height: 5em;
+    border: 5px solid rgb(133, 183, 157);
     margin: auto;
+    width: 100%;
 }
 
-header img {
-    width: 20em;
-    height: 10em;
-}
-
-#logo{
-    border: 5px solid whitesmoke;
-}
-
-.nav-links{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0;
-}
-    
-.nav-link-item {
-    text-decoration: none;
+form{
     display: inline-flex;
-    justify-content: space-around;
-    height: 100%;
-    
 }
 
-#search{
-    height: 50px;
-    margin: auto 0px auto 10px;
-    border: 2px solid white;
+div ul li a {
+    color: rgb(22, 48, 43);
 }
 
-header button {
-    height: 50px;
-    margin: 60px 10px;
-    border: 2px solid white;
-}
+
 
 body {
-    color: rgb(88, 88, 87);
-}
-//Carousel code
-#carouselId{
-    border: 5px solid white;
-    margin: auto;
-    position: relative;
-    width: 95%;
-    height: 500px;
-    color: rgb(88, 88, 87);
-}
-
-.carousel-inner{
-    width: 99%;
-    height: 350px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    border: 5px solid white;
-}
-
-.carousel-item{
-    width: auto;
-    height: auto;
-    border: 5px solid white;
-
-}
-
-.carousel-control-prev, .carousel-control-next{
-    cursor: pointer;
-    width: auto;
-    margin: auto;
-    display: inline-flex;
-    justify-content: center;
-    padding: 17px;
-    background-color: rgb(85, 85, 92);
-    font-weight: bold;
-    font-size: 19px;
-}
-
-.carousel-control-prev, .carousel-control-next{
-    background-color: rgba(0,0,0,0.8);
-
+    background: rgb(229, 190, 237);
 }
 
 
-@-webkit-keyframes fade {
-    from {opacity: .5}
-    to {opacity: 2}
-  }
-  
-  @keyframes fade {
-    from {opacity: .5}
-    to {opacity: 2}
-  }
 
 // About section
 #about{
@@ -114,6 +33,7 @@ body {
     height: fit-content;
     margin: auto;
     padding: 5em;
+    color: rgb(105, 72, 115);
 
 }
 #product{
@@ -121,6 +41,7 @@ body {
     height: fit-content;
     margin: auto;
     padding: 5em;
+    color: rgb(22, 48, 43);
 }
 
 
@@ -128,8 +49,7 @@ body {
     width: 95%;
     height: 450px;
     margin: auto;
-    border: 5px solid white;
-    background: rgb(85, 85, 92);
+    border: 5px solid rgb(133, 183, 157);
     display: inline-table;
 }
 
@@ -137,7 +57,7 @@ body {
 
     width: 200px;
     height: 200px;
-    border: 5px solid white;
+    border: 5px solid rgb(133, 183, 157);
     display: inline-flex;
     margin: 10px 50px 10px;
 }
@@ -149,3 +69,33 @@ footer {
     height: 100px;
     
 }
+
+
+
+
+
+// gif that comes up from search
+
+html {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  form * {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  giphy api code
+  Javascript code
+  $a.jax()
+  styling started
+  \
+  finish reviewing docs for search endpoint
+  continue styling css
+  readme.md
+  atleast 15 commits
+  user story
