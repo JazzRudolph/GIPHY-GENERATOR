@@ -1,5 +1,5 @@
 * {
-    background: rgb(229, 190, 237);
+    background: rgb(198, 190, 254);
     // Font choosen for this project
     font-family: 'Mali', cursive;
 }
@@ -9,6 +9,10 @@
     border: 5px solid rgb(133, 183, 157);
     margin: auto;
     width: 100%;
+}
+
+#logo{
+    width: auto;
 }
 
 form{
@@ -36,6 +40,15 @@ body {
     color: rgb(105, 72, 115);
 
 }
+
+.generator{
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    min-height: 200px;
+    border: 5px solid rgb(133, 183, 157);
+}
+
 #product{
     width: auto;
     height: fit-content;
@@ -89,13 +102,3 @@ html {
     max-width: 100%;
   }
 
-  giphy api code
-  Javascript code
-  $a.jax()
-  styling started
-  \
-  finish reviewing docs for search endpoint
-  continue styling css
-  readme.md
-  atleast 15 commits
-  user story
