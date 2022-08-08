@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-#logo {
+.logo {
   width: auto;
 }
 
@@ -38,11 +38,11 @@ body {
 }
 
 .generator {
-  width: 100%;
+  width: 98%;
   max-width: 1500px;
   height: 500px;
   min-height: 200px;
-  border: 5px solid rgb(133, 183, 157);
+  margin: auto;
 }
 
 #product {

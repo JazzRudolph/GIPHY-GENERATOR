@@ -21,6 +21,7 @@ let APIKEY = "PXF0UFvNKUitBnxN3KFQ6PRN01bRq1to";
               let out = document.querySelector(".out");
               out.insertAdjacentElement("afterbegin", fig);
               document.querySelector("#search").value = "";
+              
             })
             .catch(err => {
               console.error(err);
