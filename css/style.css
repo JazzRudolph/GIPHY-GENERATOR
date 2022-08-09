@@ -27,6 +27,13 @@ body {
   background: rgb(229, 190, 237);
 }
 
+div figure {
+  width: 500px;
+  max-width: auto;
+  margin: auto;
+  background: rgb(133, 183, 157);
+}
+
 #about {
   width: auto;
   height: -webkit-fit-content;
