@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <div class="container ">
+        <div class="row justify-content-md-center col col-xxlg-2">
+           <header>
+              <nav class="navbar navbar-expand-md">
+                <a href="#" class="navbar-brand">
+                  <img class="logo" src="" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#coll">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="coll">
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                      <a href="#" class="nav-link">LINK</a>
+                    </li>
+                     <li class="nav-item">
+                      <a href="#" class="nav-link">LINK</a>
+                    </li>
+                     <li class="nav-item">
+                      <a href="#" class="nav-link">LINK</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link">LINK</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+           </header>
+        </div>
+      </div>
+      <div class="col col-sm">
+        <div>
+        <section id="about">
+         <h1>Online GIF Generator</h1>
+            <p class="pgh">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae, autem provident dignissimos dolores praesentium saepe quos accusamus quibusdam minus, inventore, voluptatum aut nulla? Facere architecto vel ex cumque ipsa.
+            </p>
+            <p class="pgh">
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit alias odit dicta dolore sunt commodi fugiat, facere id aspernatur esse quas dolores possimus, labore porro cumque consectetur sed? Libero, maiores!  
+            </p>
+            <p class="pgh">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium blanditiis facere consequatur natus ut corporis vitae ex ad deserunt delectus in, minus odio excepturi incidunt? Ullam dolorem inventore natus?
+            </p>
+          </section>
+        </div>
+      </div>
+   <div class="col col-sm">
+    <section id="trending">
+      <h1>Trending Pictures</h1>
+      <p class="pgh ">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum accusantium ut sequi expedita rem eveniet ea, quaerat quod asperiores nulla consequatur fugit natus quidem, molestiae incidunt labore vel ipsam reiciendis!
+      </p>
+        <div class="gallery-img">
+          <img src="#" alt="unknown"/>
+      </div>
+      <div class="gallery-img">
+        <img src="#" alt="unknown"/>
+      </div>
+      <div class="gallery-img">
+        <img  src="#" alt="unknown"/>
+      </div>
+      <div class="gallery-img">
+        <img  src="#" alt="unknown"/>
+      </div>
+      <div class="gallery-img">
+        <img  src="#" alt="unknown"/>
+      </div>
+      <div class="gallery-img">
+        <img src="#" alt="unknown"/>
+      </div>
+  </section>
+    </div>
+  </div>
+    <div class="generator">
+      <div class="col-xlg-auto">
+        <h1>Gif Generator</h1>
+        <form>
+          <label for="search">Search Giphy</label>
+          <input id="search" type="search"/>
+          <button id="btnSearch">Submit</button>
+        </form>
+        <div class="row justify-content-md-center col col-xxlg-2">
+          <div class="out"></div>
+        </div>         
+      </div>
+    </div>
+    </main>
+    <footer>
+      <div class="col col-md row justify-content-md-center">
+        <a href="#" class="navbar-brand">
+        <img class="logo" src="#" alt="logo" />
+        </a>
+        <address>Email <br> Phone Number <br> Address
+        </address>
+      </div>
+    </footer>
+  </body>
+</html
