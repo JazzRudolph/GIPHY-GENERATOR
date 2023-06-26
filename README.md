@@ -1,5 +1,6 @@
 # GIPHY-GENERATOR
 Jazz Rudolph
+https://jazzrudolph.github.io/GIPHY-GENERATOR/
 
 This project was alot of fun and hard work puting everything I've learned so far into work,
 I am extremly proud of myself. The project is a gif generator powered by Giphy's API, 
